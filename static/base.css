@@ -1,0 +1,14 @@
+*{
+    font-family:'Arial',sans-serif;
+}
+
+.ph strong{
+    color:orange
+}
+
+.ph strong:hover{
+    color:black;
+    background-color:orange;
+    border-radius:3px;
+    padding:3px;
+}

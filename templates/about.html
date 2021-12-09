@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block title %}About{% endblock title %}
+
+{% block body %}
+
+<link rel="stylesheet" href="{% static 'about.css' %}">
+<div class="about-section">
+  <h1>We @ AutoHub.</h1>
+  <p>We are committed to provide our customers with their dream cars and services that meet and even exceed their expectations.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="static/images/pradnya.jpg" alt="Pradnya" style="width:100%">
+      <div class="container">
+        <h2>Pradnya Ingale.</h2>
+        <p class="title">Managing Director @ AutoHub.</p>
+        <p>Pradnya has over 10 years of senior level experience in leading company.</p>
+        <p>pradnya1300@gmail.com </p>
+          <a href="mailto:pradnya1300@gmail.com?subject=Hello"><button class="button">Contact</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="static/images/swaraj.jpg" alt="Swaraj" style="width:100%">
+      <div class="container">
+        <h2>Swaraj Patil.</h2>
+        <p class="title">CEO & Founder @ AutoHub.</p>
+        <p>Swaraj is the ceo & founder of AutoHub and also expert in car dealership having years of experience.</p>
+        <p>swarajpatil60@gmail.com</p>
+        <a href="mailto:swarajpatil60@gmail.com?subject=Hello" target="_blank" ><button class="button">Contact</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="static/images/tanaya.jpg" alt="Tanaya" style="width:100%">
+      <div class="container">
+        <h2>Tanaya Patil.</h2>
+        <p class="title">Sales Executive @ AutoHub.</p>
+        <p>Tanaya is in charge of  data and sales marketing infrastructure of our company.</p>
+        <p>tanaya33@gmail.com</p>
+        <a href="mailto:tanaya33@gmail.com?subject=Hello"><button class="button">Contact</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock body %}
