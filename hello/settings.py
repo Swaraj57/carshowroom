@@ -27,7 +27,6 @@ SECRET_KEY = '5)-37e^hitt(g=b@vi%ypqhp)o(ab803d!0-&&$#d8)gf(5rp8'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1'
     'car--showroom.herokuapp.com'
 ]
 
