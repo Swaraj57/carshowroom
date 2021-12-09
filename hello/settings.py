@@ -26,7 +26,10 @@ SECRET_KEY = '5)-37e^hitt(g=b@vi%ypqhp)o(ab803d!0-&&$#d8)gf(5rp8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1'
+    'car--showroom.herokuapp.com'
+]
 
 
 # Application definition
